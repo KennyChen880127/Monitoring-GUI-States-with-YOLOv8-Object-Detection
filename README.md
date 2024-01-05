@@ -6,7 +6,7 @@ The recognition action for the Information panel requires new data to be added e
 Warning actions utilize [Line Notify](https://notify-bot.line.me/zh_TW/) to send alert messages to user accounts or groups, with reminders sent after a specified time interval.
 
 Additionally, considering not all computers are equipped with GPUs, this project introduces **OpenVINO** to enable accelerated predictions on systems without a GPU but with an Intel CPU.
-
+![Result Image](https://github.com/KennyChen880127/YOLOv8-GUI-Monitoring/blob/master/result.png)
 ## YOLOv8
 [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) is a cutting-edge, state-of-the-art (SOTA) model that builds upon the success of previous YOLO versions and introduces new features and improvements to further boost performance and flexibility. YOLOv8 is designed to be fast, accurate, and easy to use, making it an excellent choice for a wide range of object detection and tracking, instance segmentation, image classification and pose estimation tasks.
 
