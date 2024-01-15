@@ -1,4 +1,11 @@
-# YOLOv8-GUI-Monitoring
+<div align="center">
+<h1>
+<b>
+Monitoring GUI States with YOLOv8 Object Detection
+</b>
+</h1>
+</div>
+
 This project utilizes YOLOv8 Object Detection for GUI monitoring, applicable to overseeing multiple remote machine screens displaying numerical values and statuses. Leveraging pre-labeled classes such as Information panels, Battery levels, and machine states (Run or Error) as shown in example images, the project simulates a GUI using **Visual Basic .NET** and generates a dataset.
 
 The recognition action for the Information panel requires new data to be added every five seconds; otherwise, a warning is triggered. The recognition process for the Battery level involves utilizing **Tesseract-OCR** for optical character recognition (OCR) to extract the current battery level. If the detected level falls below a predefined threshold, a warning will be triggered.
